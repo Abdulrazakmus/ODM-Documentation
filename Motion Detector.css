@@ -1,0 +1,99 @@
+:root {
+    ---blue: #1e6887;
+    ---darkblue: #104257;
+    ---green: #719e36;
+    ---white: #fff;
+    ---gray: #f5f5f5;
+    ---black1: #222;
+    ---black2: #999;
+
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.synopsis {
+    text-align: center;
+}
+
+header {
+    color: var(---blue);
+    text-align: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left-container,
+.right-container {
+    flex: 1;
+    text-align: justify;
+    padding: 15px;
+}
+
+.left-container {
+    color: var(---black);
+    border-right: 2px solid var(---black2);
+
+}
+
+.right-container {
+    color: var(---black);
+
+
+}
+strong{
+    color: var(---darkblue);
+}
+
+footer {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.gallery {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* .imgs{
+display: flex;
+flex-direction: row;
+} */
+.imgs>img {
+    width: 40%;
+}
+
+/* .info {
+    text-align: center;
+}
+
+.info>ul {}
+
+.info p i ul li {
+    list-style: none;
+
+} */
+
+.info > ul {
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    flex-direction: row;
+}
+
+.info > ul > li {
+    flex:1;
+    
+}
+.code{
+    list-style: none;
+    padding-left: 2px;
+}
